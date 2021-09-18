@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -22,7 +26,6 @@
 }
 
 .logo .logo_text {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 15px;
     text-align: center;
@@ -36,8 +39,8 @@ h1 {
 }
 
 .title {
-    font-family: Roboto;
-    font-weight: 900;
+    /* font-family: 'Roboto Black', sans-serif; */
+    font-weight: 300;
     font-size: 41px;
     text-align: center;
     text-transform: uppercase;
@@ -49,7 +52,6 @@ h2.title {
 }
 
 .simple .title_big {
-    font-family: Roboto;
     font-weight: 900;
     font-size: 80px;
     text-align: center;
@@ -60,7 +62,6 @@ h2.title {
 .promo .promo_text {
     padding: 0 13px;
     margin-top: 23px;
-    font-family: Roboto;
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
@@ -69,8 +70,7 @@ h2.title {
 }
 
 .promo .promo_text span {
-    font-family: Roboto;
-    font-weight: bold;
+    font-weight: 700;
     color: #F9BF3B;
 }
 
@@ -86,7 +86,6 @@ h2.title {
     
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     color: #FFFFFF;
-    font-family: Roboto Condensed;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -100,8 +99,7 @@ h2.title {
 }
 
 .more .more_text {
-    font-family: Roboto Thin;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 15px;
     text-align: center;
     text-transform: uppercase;
@@ -122,7 +120,6 @@ h2.title {
 
 .waiting .waiting_header, .finish .finish_header {
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -144,7 +141,6 @@ h2.title {
 .waiting .waiting_subheader {
     margin-top: 17px;
     color: #4A4A4A;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     text-align: center;
@@ -167,7 +163,6 @@ h2.title {
 
 .waiting .waiting_wrapper .waiting_item .waiting_descrip {
     margin-top: 33px;
-    font-family: Roboto;
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
@@ -181,7 +176,6 @@ h2.title {
 
 .optimization .optimization_header {
     margin-left: 391px;
-    font-family: Roboto;
     font-weight: 900;
     font-size: 28px;
     line-height: 30px;
@@ -192,7 +186,6 @@ h2.title {
 .optimization .optimization_text {
     margin-top: 25px;
     margin-left: 391px;
-    font-family: Roboto;
     font-weight: 300;
     font-size: 17px;
     line-height: 27px;
@@ -200,7 +193,7 @@ h2.title {
 }
 
 .optimization .optimization_text span {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .optimization .optimization_img {
@@ -239,7 +232,6 @@ h2.title {
 
 .finish .finish_wrapper .finish_item .finish_descr {
     margin-top: 25px;
-    font-family: Roboto;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
@@ -261,8 +253,7 @@ h2.title {
 
 .gift .gift_descr {
     margin-top: 88px;
-    font-family: Roboto;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 30px;
     line-height: 43px;
     text-align: center;
@@ -273,9 +264,7 @@ h2.title {
     display: block;
     margin: 0 auto;
     margin-top: 52px;
-
-    font-family: Roboto Condensed;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 21px;
     text-align: center;
     color: #FFFFFF;
@@ -301,15 +290,13 @@ h2.title {
 
 .vebinar_date .vebinar_date_descr div {
     margin-top: 36px;
-    font-family: Roboto;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 30px;
     color: #252525;
 }
 
 .vebinar_date .vebinar_date_descr h2 {
     margin-top: 30px;
-    font-family: Roboto;
     font-weight: 900;
     font-size: 36px;
     line-height: 36px;
@@ -318,8 +305,7 @@ h2.title {
 
 .vebinar_date .vebinar_date_descr p {
     margin: 25px 0 53px 0;
-    font-family: Roboto;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 23px;
     color: #4A4A4A;
 }
@@ -332,7 +318,6 @@ h2.title {
 .footer .footer_text {
     /* display: inline-block; */
     padding: 57px 0 69px 0;
-    font-family: Roboto;
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
@@ -344,5 +329,4 @@ h2.title {
     text-decoration: none;
   color: #888888;
     text-decoration-line: underline;
-    
 }
