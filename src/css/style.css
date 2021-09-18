@@ -35,7 +35,7 @@ html {
 }
 
 h1 {
-    margin-top: 53px;
+    margin: 53px 0 0 0;
 }
 
 .title {
@@ -48,10 +48,11 @@ h1 {
 }
 
 h2.title {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .simple .title_big {
+    margin-top: 20px;
     font-weight: 900;
     font-size: 80px;
     text-align: center;
@@ -95,7 +96,7 @@ h2.title {
 }
 
 .more {
-    margin-top: 73px;
+    margin-top: 70px;
 }
 
 .more .more_text {
